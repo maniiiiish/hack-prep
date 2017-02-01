@@ -1,4 +1,6 @@
 # hack-prep
+
+[![Join the chat at https://gitter.im/hack-prep/Lobby](https://badges.gitter.im/hack-prep/Lobby.svg)](https://gitter.im/hack-prep/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A learning playground for hackathon team
 
 ----
