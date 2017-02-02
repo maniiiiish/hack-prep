@@ -16,12 +16,12 @@ A learning playground for hackathon team
 3. Install virualenv    
     [helpful link]  
 4. Add your name in the list below (using "git" command line)    
-    [helpful link] 
-5.
- rogerdudler.github.io/git-guide   
+    [helpful link]  
+ 
+5. https://rogerdudler.github.io/git-guide/   
     
 People completed tasks -   
-1. shubham kamboj kamboj zero....
+1. shubham kamboj    
 2. aayush jain 
 3.   
 4.   
