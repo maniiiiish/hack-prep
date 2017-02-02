@@ -22,7 +22,7 @@ A learning playground for hackathon team
     
 People completed tasks -   
 1. shubham kamboj kamboj zero....
-2.  
+2. aayush jain 
 3.   
 4.   
 
