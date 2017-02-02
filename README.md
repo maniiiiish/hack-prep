@@ -19,7 +19,7 @@ A learning playground for hackathon team
     [helpful link]  
  
 5. https://rogerdudler.github.io/git-guide/   
-    
+     
 People completed tasks -   
 1. shubham kamboj    
 2. aayush jain 
@@ -35,4 +35,6 @@ People completed tasks -
 3. View result on browser    
 4. Learn a little about flask  
   
+#### third task 
 
+1.install SQLALchemy (use command 'pip install SQLALchemy' in git bash )
