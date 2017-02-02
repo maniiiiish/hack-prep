@@ -16,11 +16,13 @@ A learning playground for hackathon team
 3. Install virualenv    
     [helpful link]  
 4. Add your name in the list below (using "git" command line)    
-    [helpful link]    
+    [helpful link]  
+ 
+5. https://rogerdudler.github.io/git-guide/   
     
 People completed tasks -   
-1.  Shubham Kamboj
-2.   
+1. shubham kamboj    
+2.  
 3.   
 4.   
 
@@ -31,5 +33,7 @@ People completed tasks -
 1. Activate virtualenv environment    
 2. Run example1.py    
 3. View result on browser    
-4. Learn a little about flask  
+4. Learn a little about flask   
+5. http://flask.pocoo.org/docs/0.12/quickstart/
   
+
