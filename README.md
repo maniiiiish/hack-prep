@@ -22,7 +22,7 @@ A learning playground for hackathon team
     
 People completed tasks -   
 1. shubham kamboj    
-2. aayush jain 
+2.  
 3.   
 4.   
 
@@ -33,6 +33,7 @@ People completed tasks -
 1. Activate virtualenv environment    
 2. Run example1.py    
 3. View result on browser    
-4. Learn a little about flask  
+4. Learn a little about flask   
+5. http://flask.pocoo.org/docs/0.12/quickstart/
   
 
