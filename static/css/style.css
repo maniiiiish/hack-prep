@@ -1,3 +1,9 @@
 h1 {
-    color: red;
+    color: #ffffff;
+    text-shadow: 3px 3px red;
 }
+
+body {
+    background-color: blue;
+}
+
