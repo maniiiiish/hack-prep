@@ -22,5 +22,6 @@ class students(db.Model):
 st1= students("username","password","name","roll_no")
 db.create_all()
 db.session.add(st1)
+db.session.commit()
 
 
