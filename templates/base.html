@@ -1,13 +1,69 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
-  </head>
-
-  <body>
-    <h1>This is for testing {{ name }} </h1>
-    <h2>THis is alsoe for testing</h2>
-    <h2>THis is alsoe for testing</h2>
-    <h2>THis is alsoe for testing</h2>
-    
-  </body>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="shubham.css">
+    <title>
+        homepage
+    </title>
+</head>
+    <body style="background-color:#9370DB;">
+<!-- Number badge on icon -->
+<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+<form action="/login" method="post">
+</form>
+        <fieldset>
+            <legend>login</legend>
+            <label for="Username">Username</label>
+<input type="text" name="Username">
+        <label for="Password">Password</label>
+<input type="Password" name="Password">
+<input type="submit" name="submit" value="LOGIN">
+        </fieldset>
+        <label for="Search">Search</label>
+        <input type="Search" name="Search">
+        <input type="submit" name="submit" value="Go">
+    <center>
+        <textarea name="comment">add your comment here</textarea>
+        <input type="radio" name="lang" value="Java" checked> Java
+<input type="radio" name="lang" value="C++">C++
+<input type="radio" name="lang" value="C">C
+        <input type="checkbox" name="day" value="Java" checked>Java
+<input type="checkbox" name="day" value="C++">C++
+<input type="checkbox" name="day" value="C">C
+        <select name="lang">
+  <option value="Java" selected>Java</option>
+  <option value="C++">C++</option>
+  <option value="C">C</option>
+<option value="Python">Python</option>
+<option value="html">html</option>
+</select>
+        <select name="lang" multiple>
+  <option value="Java" selected>Java</option>
+  <option value="C++">C++</option>
+  <option value="C">C</option>
+            <option value="Python">Python</option>
+  <option value="html">html</option>
+</select>
+<button name="submit">
+  <strong>Send Us</strong> a Message
+</button>
+        <input type="file" name="file">
+        <label>
+  Email Address
+  <input type="email" name="email-address" required>
+            <input type="submit" name="submit" value="submit">
+</label>
+        <!-- Colored FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+<!-- Colored FAB button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <i class="material-icons">add</i>
+        </button>
+</button>
+</body>
 </html>
