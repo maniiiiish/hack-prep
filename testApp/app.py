@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
+from flask import request
 app = Flask(__name__, static_url_path='/static/')
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
@@ -14,6 +15,21 @@ def home_page():
 @app.route('/user/<nam>')
 def profile_page(nam):
     return render_template('profile.html', name=nam)
+
+@app.route('/new', methods = ['GET', 'POST'])
+def new():
+   if request.method == 'POST':
+      if not request.form['name'] or not request.form['city'] or not request.form['addr']:
+         flash('Please enter all the fields', 'error')
+      else:
+         student = students(request.form['name'], request.form['city'],
+            request.form['addr'], request.form['pin'])
+         
+         db.session.add(student)
+         db.session.commit()
+         flash('Record was successfully added')
+         return redirect(url_for('show_all'))
+   return render_template('new.html')
 
 if __name__=='__main__':
     app.run()
